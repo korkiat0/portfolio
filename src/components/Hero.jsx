@@ -13,9 +13,9 @@ const Hero = () => {
               Front End Developer
             </span>
             <p className="my-2 max-w-xl py-6 font-light tracking-tighter ">
-              เมื่อเร็วๆ นี้จบหลักสูตร Code Camp Fullstack JavaScript
+              ผมจบหลักสูตร Code Camp Fullstack JavaScript
               แบบเร่งรัดที่ Software Park Thailand
-              ตอนนี้ฉันกำลังมุ่งเน้นไปที่การเป็นนักพัฒนาส่วนหน้าที่มีความหลงใหลในการสร้างเว็บไซต์และแอปพลิเคชันที่สวยงามน่าดึงดูดและใช้งานง่าย
+              ตอนนี้ผมกำลังมุ่งเน้นไปที่การเป็นนักพัฒนาส่วนหน้าที่มีความหลงใหลในการสร้างเว็บไซต์และแอปพลิเคชันที่สวยงามน่าดึงดูดและใช้งานง่าย
             </p>
           </div>
         </div>
