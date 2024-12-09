@@ -41,6 +41,21 @@ const Technologies = () => {
           <TbBrandMysql className="text-7xl text-purple-300" />
         </div>
       </div>
+      <div className=" ">
+        {" "}
+        <div className="flex justify-center p-4  ">
+          {" "}
+          <p className="  text-center w-1/2 j rounded-2xl border-2 border-neutral-800 p-6 m-2">
+            Front-End : HTML, CSS, Javascript, React, Tailwind, Bootstrap
+          </p>
+          <p className=" text-center w-1/2 rounded-2xl border-2 border-neutral-800 p-6 m-2">
+            Back-End : Node.js, Express.js, MySQL, Prisma ORM
+          </p>
+          <p className=" text-center w-1/2 rounded-2xl border-2 border-neutral-800 p-6 m-2">
+            Tools & Others : GitHub, Postman, Agile
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
