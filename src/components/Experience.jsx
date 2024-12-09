@@ -38,22 +38,29 @@ const EXPERIENCE = [
 
 const Experience = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
-      <h2 className="my-20 text-center text-4xl">Experience</h2>
-      <div>
+    <div className="border-b border-neutral-900 pb-12 bg-gradient-to-b from-gray-800 to-gray-900 text-white">
+      <h2 className="my-12 text-center text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-600">
+        Experience
+      </h2>
+      <div className="flex flex-col items-center">
         {EXPERIENCE.map((experience, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-            <div className="w-full lg:w-1/4">
-              <p className="mb-2 text-sm text-blue-600">{experience.year}</p>
-            </div>
-            <div className="w-full max-w-xl lg:w-2/6">
-              <h6 className="mb-2 font-semibold ">
-                {experience.role} -{" "}
-                <span className="text-sm text-purple-300">
-                  {experience.company}
-                </span>
-              </h6>
-              <p>{experience.description}</p>
+          <div
+            key={index}
+            className="mb-8 w-full max-w-4xl p-6 rounded-lg bg-gray-700 shadow-lg transform hover:scale-105 transition duration-300"
+          >
+            <div className="flex flex-wrap items-center">
+              <div className="w-full lg:w-1/4 mb-4 lg:mb-0">
+                <p className="text-sm text-pink-300">{experience.year}</p>
+              </div>
+              <div className="w-full lg:w-3/4">
+                <h6 className="mb-2 text-lg font-semibold text-pink-100">
+                  {experience.role} -{" "}
+                  <span className="text-sm text-purple-300">
+                    {experience.company}
+                  </span>
+                </h6>
+                <p className="text-gray-300">{experience.description}</p>
+              </div>
             </div>
           </div>
         ))}
